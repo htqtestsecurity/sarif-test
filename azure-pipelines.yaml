@@ -1,0 +1,24 @@
+trigger:
+- none
+
+pool:
+  name: Azure Pipelines
+  vmImage: "windows-latest"
+
+steps:
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '23'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
+
+- task: EndorLabsScan@0
+  inputs:
+    serviceConnectionEndpoint: 'endor-prod'
+    namespace: 'test_shiva.ghtest' 
+    logLevel: debug
+
+- task: AdvancedSecurity-Publish@1
+  displayName: Publish 'scanresults.sarif' to Advanced Security
+  inputs:
+   SarifsInputDirectory: $(Build.SourcesDirectory)\

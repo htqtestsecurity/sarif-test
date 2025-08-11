@@ -1,0 +1,346 @@
+{
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "sqlparse@0.4.4 has a high severity vulnerability identified by GHSA-2m57-hf25-phgg: sqlparse parsing heavily nested list leads to Denial of Service. This vulnerability was fixed in version 0.5.0.\n2 packages import sqlparse@0.4.4 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "GHSA-2m57-hf25-phgg: sqlparse parsing heavily nested list leads to Denial of Service"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 2
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a medium severity vulnerability identified by GHSA-vm8q-m57g-pff3: Regular expression denial-of-service in Django. This vulnerability was fixed in version 3.2.25.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-vm8q-m57g-pff3: Regular expression denial-of-service in Django"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a critical vulnerability identified by GHSA-r3xc-prgr-mg9p: Django bypasses validation when using one form field to upload multiple files. This vulnerability was fixed in version 3.2.19.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-r3xc-prgr-mg9p: Django bypasses validation when using one form field to upload multiple files"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a high severity vulnerability identified by GHSA-7h4p-27mh-hmrw: Django Denial of service vulnerability in django.utils.encoding.uri_to_iri. This vulnerability was fixed in version 3.2.21.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-7h4p-27mh-hmrw: Django Denial of service vulnerability in django.utils.encoding.uri_to_iri"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 5
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a high severity vulnerability identified by GHSA-h8gc-pgj2-vjm3: Django Denial-of-service in django.utils.text.Truncator. This vulnerability was fixed in version 3.2.22.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-h8gc-pgj2-vjm3: Django Denial-of-service in django.utils.text.Truncator"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 6
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a high severity vulnerability identified by GHSA-xxj9-f6rv-m3x4: Django denial-of-service attack in the intcomma template filter. This vulnerability was fixed in version 3.2.24.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-xxj9-f6rv-m3x4: Django denial-of-service attack in the intcomma template filter"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a high severity vulnerability identified by GHSA-jh3w-4vvf-mjgr: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator. This vulnerability was fixed in version 3.2.20.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-jh3w-4vvf-mjgr: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "requirements.txt"
+                },
+                "region": {
+                  "startLine": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "django@3.2.18 has a high severity vulnerability identified by GHSA-qmf9-6jqf-j8fq: Django potential denial of service vulnerability in UsernameField on Windows. This vulnerability was fixed in version 3.2.23.\ndjango@3.2.18 is a direct dependency of no_ahsack@master."
+          },
+          "ruleId": "GHSA-qmf9-6jqf-j8fq: Django potential denial of service vulnerability in UsernameField on Windows"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "endorctl",
+          "rules": [
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.21 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-7h4p-27mh-hmrw: Django Denial of service vulnerability in django.utils.encoding.uri_to_iri",
+              "name": "GHSA-7h4p-27mh-hmrw: Django Denial of service vulnerability in django.utils.encoding.uri_to_iri",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-7h4p-27mh-hmrw: Django Denial of service vulnerability in django.utils.encoding.uri_to_iri"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.22 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-h8gc-pgj2-vjm3: Django Denial-of-service in django.utils.text.Truncator",
+              "name": "GHSA-h8gc-pgj2-vjm3: Django Denial-of-service in django.utils.text.Truncator",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-h8gc-pgj2-vjm3: Django Denial-of-service in django.utils.text.Truncator"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.24 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-xxj9-f6rv-m3x4: Django denial-of-service attack in the intcomma template filter",
+              "name": "GHSA-xxj9-f6rv-m3x4: Django denial-of-service attack in the intcomma template filter",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-xxj9-f6rv-m3x4: Django denial-of-service attack in the intcomma template filter"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.20 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-jh3w-4vvf-mjgr: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator",
+              "name": "GHSA-jh3w-4vvf-mjgr: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-jh3w-4vvf-mjgr: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.23 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-qmf9-6jqf-j8fq: Django potential denial of service vulnerability in UsernameField on Windows",
+              "name": "GHSA-qmf9-6jqf-j8fq: Django potential denial of service vulnerability in UsernameField on Windows",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-qmf9-6jqf-j8fq: Django potential denial of service vulnerability in UsernameField on Windows"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Upgrade sqlparse to version 0.5.0 (current: 0.4.4, latest: 0.5.0)."
+              },
+              "id": "GHSA-2m57-hf25-phgg: sqlparse parsing heavily nested list leads to Denial of Service",
+              "name": "GHSA-2m57-hf25-phgg: sqlparse parsing heavily nested list leads to Denial of Service",
+              "properties": {
+                "security-severity": "7.5E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-2m57-hf25-phgg: sqlparse parsing heavily nested list leads to Denial of Service"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.25 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-vm8q-m57g-pff3: Regular expression denial-of-service in Django",
+              "name": "GHSA-vm8q-m57g-pff3: Regular expression denial-of-service in Django",
+              "properties": {
+                "security-severity": "5.300000190734863E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-vm8q-m57g-pff3: Regular expression denial-of-service in Django"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "A critical severity known vulnerability has been assessed against this version of the software package according to the information in OSV.dev"
+              },
+              "help": {
+                "text": "Update no_ahsack@master to use django version 3.2.19 (current: 3.2.18, latest: 5.1a1)."
+              },
+              "id": "GHSA-r3xc-prgr-mg9p: Django bypasses validation when using one form field to upload multiple files",
+              "name": "GHSA-r3xc-prgr-mg9p: Django bypasses validation when using one form field to upload multiple files",
+              "properties": {
+                "security-severity": "9.800000190734863E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-r3xc-prgr-mg9p: Django bypasses validation when using one form field to upload multiple files"
+              }
+            }
+          ],
+          "semanticVersion": "v1.6.339"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}

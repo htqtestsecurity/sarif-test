@@ -1,0 +1,3959 @@
+{
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/hashicorp/go-retryablehttp@v0.7.2 has a medium severity vulnerability identified by GHSA-v6v8-xj6m-xwqh: go-retryablehttp can leak basic auth credentials to log files. This vulnerability was fixed in version 0.7.7.\ngithub.com/hashicorp/go-retryablehttp@v0.7.2 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/xanzy/go-gitlab@v0.83.0."
+          },
+          "ruleId": "GHSA-v6v8-xj6m-xwqh: go-retryablehttp can leak basic auth credentials to log files"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/moby/buildkit@v0.11.4 has a medium severity vulnerability identified by GHSA-9p26-698r-w4hx: BuildKit vulnerable to possible panic when incorrect parameters sent from frontend. This vulnerability was fixed in version v0.12.5.\ngithub.com/moby/buildkit@v0.11.4 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "GHSA-9p26-698r-w4hx: BuildKit vulnerable to possible panic when incorrect parameters sent from frontend"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/hashicorp/go-retryablehttp@v0.7.2 has a medium severity vulnerability identified by CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.. This vulnerability was fixed in version v0.7.7.\ngithub.com/hashicorp/go-retryablehttp@v0.7.2 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/xanzy/go-gitlab@v0.83.0."
+          },
+          "ruleId": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7."
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/docker/docker@v24.0.9+incompatible has a medium severity vulnerability identified by GHSA-mq39-4gv4-mvpx: Moby's external DNS requests from 'internal' networks could lead to data exfiltration. This vulnerability was fixed in version v25.0.5+incompatible.\ngithub.com/docker/docker@v24.0.9+incompatible is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/docker/docker@v24.0.9+incompatible is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "GHSA-mq39-4gv4-mvpx: Moby's external DNS requests from 'internal' networks could lead to data exfiltration"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/hashicorp/go-retryablehttp@v0.7.2 has a medium severity vulnerability identified by GO-2024-2947: Leak of sensitive information to log files in github.com/hashicorp/go-retryablehttp. This vulnerability was fixed in version 0.7.7.\ngithub.com/hashicorp/go-retryablehttp@v0.7.2 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/xanzy/go-gitlab@v0.83.0."
+          },
+          "ruleId": "GO-2024-2947: Leak of sensitive information to log files in github.com/hashicorp/go-retryablehttp"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/moby/buildkit@v0.11.4 has a critical vulnerability identified by GHSA-4v98-7qmw-rqr8: BuildKit vulnerable to possible host system access from mount stub cleaner. This vulnerability was fixed in version v0.12.5.\ngithub.com/moby/buildkit@v0.11.4 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "GHSA-4v98-7qmw-rqr8: BuildKit vulnerable to possible host system access from mount stub cleaner"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/moby/buildkit@v0.11.4 has a critical vulnerability identified by GHSA-wr6v-9f75-vh2g: Buildkit's interactive containers API does not validate entitlements check. This vulnerability was fixed in version v0.12.5.\ngithub.com/moby/buildkit@v0.11.4 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "GHSA-wr6v-9f75-vh2g: Buildkit's interactive containers API does not validate entitlements check"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/moby/buildkit@v0.11.4 has a high severity vulnerability identified by GHSA-m3r6-h7wv-7xxv: BuildKit vulnerable to possible race condition with accessing subpaths from cache mounts. This vulnerability was fixed in version v0.12.5.\ngithub.com/moby/buildkit@v0.11.4 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "GHSA-m3r6-h7wv-7xxv: BuildKit vulnerable to possible race condition with accessing subpaths from cache mounts"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Dependency github.com/pkg/errors@v0.9.1 has a low activity score of 3.75 (<3.90). 3 packages import github.com/pkg/errors@v0.9.1 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Dependency github.com/pkg/errors@v0.9.1 With Low Activity Score"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/hashicorp/hcl@v1.0.0: Repository does not appear to have a valid license.\ngithub.com/hashicorp/hcl@v1.0.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/spf13/viper@v1.15.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/hashicorp/hcl@v1.0.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be: Repository does not appear to have a valid license.\ngithub.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/mitchellh/mapstructure@v1.5.0: Repository does not appear to have a valid license.\ngithub.com/mitchellh/mapstructure@v1.5.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/spf13/viper@v1.15.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/mitchellh/mapstructure@v1.5.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/robfig/cron@v1.2.0: Repository does not appear to have a valid license.\ngithub.com/robfig/cron@v1.2.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/robfig/cron@v1.2.0 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/robfig/cron@v1.2.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/gogo/protobuf@v1.3.2: Unable to locate license information for this package in the source code and/or the package manager.\ngithub.com/gogo/protobuf@v1.3.2 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/gogo/protobuf@v1.3.2 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/gogo/protobuf@v1.3.2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/mattn/go-colorable@v0.1.13: Repository does not appear to have a valid license.\n2 packages import github.com/mattn/go-colorable@v0.1.13 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/mattn/go-colorable@v0.1.13"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/OneOfOne/xxhash@v1.2.8: Repository does not appear to have a valid license.\ngithub.com/OneOfOne/xxhash@v1.2.8 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/OneOfOne/xxhash@v1.2.8"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/ProtonMail/go-crypto@v0.0.0-20230828082145-3c4c8a2d2371: Repository does not appear to have a valid license.\n2 packages import github.com/ProtonMail/go-crypto@v0.0.0-20230828082145-3c4c8a2d2371 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/ProtonMail/go-crypto@v0.0.0-20230828082145-3c4c8a2d2371"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/rivo/uniseg@v0.4.4: Repository does not appear to have a valid license.\ngithub.com/rivo/uniseg@v0.4.4 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/olekukonko/tablewriter@v0.0.5. github.com/rivo/uniseg@v0.4.4 is a transitive dependency of github.com/olekukonko/tablewriter@v0.0.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/rivo/uniseg@v0.4.4"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb: Repository does not appear to have a valid license.\ngithub.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0. github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb is a transitive dependency of github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/vbauerster/mpb/v8@v8.4.0: Repository does not appear to have a valid license.\ngithub.com/vbauerster/mpb/v8@v8.4.0 is a direct dependency of github.com/Legit-Labs/legitify@main."
+          },
+          "ruleId": "License Risk in Dependency github.com/vbauerster/mpb/v8@v8.4.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/pmezard/go-difflib@v1.0.0: Unable to locate license information for this package in the source code and/or the package manager.\ngithub.com/pmezard/go-difflib@v1.0.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/stretchr/testify@v1.8.4."
+          },
+          "ruleId": "License Risk in Dependency github.com/pmezard/go-difflib@v1.0.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79: Repository does not appear to have a valid license.\ngithub.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79 is a direct dependency of github.com/Legit-Labs/legitify@main."
+          },
+          "ruleId": "License Risk in Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2: Repository does not appear to have a valid license.\n2 packages import golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/sergi/go-diff@v1.1.0: Repository does not appear to have a valid license.\ngithub.com/sergi/go-diff@v1.1.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/sergi/go-diff@v1.1.0 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/sergi/go-diff@v1.1.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/ghodss/yaml@v1.0.0: Unable to locate license information for this package in the source code and/or the package manager.\ngithub.com/ghodss/yaml@v1.0.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/ghodss/yaml@v1.0.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "cloud.google.com/go@v0.110.0 is 14 months old and 8 releases behind the latest release v0.110.8. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\ncloud.google.com/go@v0.110.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. cloud.google.com/go@v0.110.0 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "Outdated Dependency cloud.google.com/go@v0.110.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/spf13/jwalterweatherman@v1.1.0: Repository does not appear to have a valid license.\ngithub.com/spf13/jwalterweatherman@v1.1.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/spf13/viper@v1.15.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/spf13/jwalterweatherman@v1.1.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/davecgh/go-spew@v1.1.1: Repository does not appear to have a valid license.\ngithub.com/davecgh/go-spew@v1.1.1 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/stretchr/testify@v1.8.4."
+          },
+          "ruleId": "License Risk in Dependency github.com/davecgh/go-spew@v1.1.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/docker/cli@v23.0.0-rc.1+incompatible: License information from package manager Apache-2.0 is different from the licenses discovered in the source code BSD-3-Clause.\ngithub.com/docker/cli@v23.0.0-rc.1+incompatible is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/docker/cli@v23.0.0-rc.1+incompatible is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/docker/cli@v23.0.0-rc.1+incompatible"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Repository mock is archived for dependency github.com/golang/mock@v1.6.0.\ngithub.com/golang/mock@v1.6.0 is a direct dependency of github.com/Legit-Labs/legitify@main."
+          },
+          "ruleId": "Unmaintained Dependency github.com/golang/mock@v1.6.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/spf13/pflag@v1.0.5: Unable to locate license information for this package in the source code and/or the package manager.\n3 packages import github.com/spf13/pflag@v1.0.5 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/spf13/pflag@v1.0.5"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/golang/mock@v1.6.0: Repository does not appear to have a valid license.\ngithub.com/golang/mock@v1.6.0 is a direct dependency of github.com/Legit-Labs/legitify@main."
+          },
+          "ruleId": "License Risk in Dependency github.com/golang/mock@v1.6.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/olekukonko/tablewriter@v0.0.5: Repository does not appear to have a valid license.\n2 packages import github.com/olekukonko/tablewriter@v0.0.5 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/olekukonko/tablewriter@v0.0.5"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Repository opencensus-go is archived for dependency go.opencensus.io@v0.24.0.\n4 packages import go.opencensus.io@v0.24.0 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Unmaintained Dependency go.opencensus.io@v0.24.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/shurcooL/graphql@v0.0.0-20220520033453-bdb1221e171e: Repository does not appear to have a valid license.\ngithub.com/shurcooL/graphql@v0.0.0-20220520033453-bdb1221e171e is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/shurcooL/githubv4@v0.0.0-20230424031643-6cea62ecd5a9."
+          },
+          "ruleId": "License Risk in Dependency github.com/shurcooL/graphql@v0.0.0-20220520033453-bdb1221e171e"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/agnivade/levenshtein@v1.1.1: Repository does not appear to have a valid license.\ngithub.com/agnivade/levenshtein@v1.1.1 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/agnivade/levenshtein@v1.1.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415: Repository does not appear to have a valid license.\ngithub.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/mitchellh/go-homedir@v1.1.0: Repository does not appear to have a valid license.\ngithub.com/mitchellh/go-homedir@v1.1.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/mitchellh/go-homedir@v1.1.0 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/mitchellh/go-homedir@v1.1.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Repository httpcache is archived for dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79.\ngithub.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79 is a direct dependency of github.com/Legit-Labs/legitify@main."
+          },
+          "ruleId": "Unmaintained Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/BurntSushi/toml@v1.2.1: Repository does not appear to have a valid license.\ngithub.com/BurntSushi/toml@v1.2.1 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/BurntSushi/toml@v1.2.1 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/BurntSushi/toml@v1.2.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Dependency github.com/yashtewari/glob-intersection@v0.1.0 has a very low popularity score of 2.50 (<3.00). github.com/yashtewari/glob-intersection@v0.1.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "Dependency github.com/yashtewari/glob-intersection@v0.1.0 With Very Low Popularity Score"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Repository errors is archived for dependency github.com/pkg/errors@v0.9.1.\n3 packages import github.com/pkg/errors@v0.9.1 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Unmaintained Dependency github.com/pkg/errors@v0.9.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/VividCortex/ewma@v1.2.0: Repository does not appear to have a valid license.\ngithub.com/VividCortex/ewma@v1.2.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/vbauerster/mpb/v8@v8.4.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/VividCortex/ewma@v1.2.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/google/go-github/v45@v45.2.0 is 22 months old and 13 releases behind the latest release v52.0.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\ngithub.com/google/go-github/v45@v45.2.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/google/go-github/v45@v45.2.0 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "Outdated Dependency github.com/google/go-github/v45@v45.2.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency gopkg.in/yaml.v3@v3.0.1: Unable to locate license information for this package in the source code and/or the package manager.\n6 packages import gopkg.in/yaml.v3@v3.0.1 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency gopkg.in/yaml.v3@v3.0.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/caarlos0/env/v6@v6.10.0: Repository does not appear to have a valid license.\ngithub.com/caarlos0/env/v6@v6.10.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/caarlos0/env/v6@v6.10.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/google/go-querystring@v1.1.0: Repository does not appear to have a valid license.\n4 packages import github.com/google/go-querystring@v1.1.0 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/google/go-querystring@v1.1.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d: Repository does not appear to have a valid license.\ngithub.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/vbauerster/mpb/v8@v8.4.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/hashicorp/go-cleanhttp@v0.5.2: Repository does not appear to have a valid license.\n2 packages import github.com/hashicorp/go-cleanhttp@v0.5.2 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/hashicorp/go-cleanhttp@v0.5.2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/fatih/color@v1.15.0: Repository does not appear to have a valid license.\n2 packages import github.com/fatih/color@v1.15.0 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/fatih/color@v1.15.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/rhysd/actionlint@v1.6.15 is 22 months old and 11 releases behind the latest release v1.6.26. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\ngithub.com/rhysd/actionlint@v1.6.15 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "Outdated Dependency github.com/rhysd/actionlint@v1.6.15"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/sashabaranov/go-openai@v1.9.0 is 11 months old and 35 releases behind the latest release v1.17.11. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\ngithub.com/sashabaranov/go-openai@v1.9.0 is a direct dependency of github.com/Legit-Labs/legitify@main."
+          },
+          "ruleId": "Outdated Dependency github.com/sashabaranov/go-openai@v1.9.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/opencontainers/image-spec@v1.1.0-rc2: Repository does not appear to have a valid license.\ngithub.com/opencontainers/image-spec@v1.1.0-rc2 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5. github.com/opencontainers/image-spec@v1.1.0-rc2 is a transitive dependency of github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/opencontainers/image-spec@v1.1.0-rc2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/gobwas/glob@v0.2.3: Repository does not appear to have a valid license.\ngithub.com/gobwas/glob@v0.2.3 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/open-policy-agent/opa@v0.52.0."
+          },
+          "ruleId": "License Risk in Dependency github.com/gobwas/glob@v0.2.3"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "github.com/google/go-github/v38@v38.1.0 is 32 months old and 20 releases behind the latest release v49.1.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\ngithub.com/google/go-github/v38@v38.1.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "Outdated Dependency github.com/google/go-github/v38@v38.1.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/google/uuid@v1.3.0: Repository does not appear to have a valid license.\n2 packages import github.com/google/uuid@v1.3.0 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency github.com/google/uuid@v1.3.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency github.com/Masterminds/semver/v3@v3.2.0: Repository does not appear to have a valid license.\ngithub.com/Masterminds/semver/v3@v3.2.0 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/ossf/scorecard/v4@v4.10.5."
+          },
+          "ruleId": "License Risk in Dependency github.com/Masterminds/semver/v3@v3.2.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.mod"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "go.sum"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Violation of organizational license policy.\n3 packages import github.com/opencontainers/go-digest@v1.0.0 directly. See the list of all dependency paths for details.\nLicense Name: CC-BY-SA-4.0\nLicense SPDX id: CC-BY-SA-4.0"
+          },
+          "ruleId": "License Compliance Violation for Dependency github.com/opencontainers/go-digest@v1.0.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "request@2.88.2 has a medium severity vulnerability identified by GHSA-p8p7-x288-28g6: Server-Side Request Forgery in Request. There is no known fix for this vulnerability at this time.\nrequest@2.88.2 is a direct dependency of legitify-action@1.0.0."
+          },
+          "ruleId": "GHSA-p8p7-x288-28g6: Server-Side Request Forgery in Request"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "tough-cookie@2.5.0 has a critical vulnerability identified by GHSA-72xf-g2v4-qvf3: tough-cookie Prototype Pollution vulnerability. This vulnerability was fixed in version 4.1.3.\ntough-cookie@2.5.0 is a transitive dependency of legitify-action@1.0.0 via external direct dependency request@2.88.2."
+          },
+          "ruleId": "GHSA-72xf-g2v4-qvf3: tough-cookie Prototype Pollution vulnerability"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Dependency tunnel@0.0.6 has a very low activity score of 3.33 (<3.50). tunnel@0.0.6 is a transitive dependency of legitify-action@1.0.0 via external direct dependency @actions/artifact@1.1.0. tunnel@0.0.6 is a transitive dependency of @actions/artifact@1.1.0."
+          },
+          "ruleId": "Dependency tunnel@0.0.6 With Very Low Activity Score"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "@octokit/types@v6.41.0 is 20 months old and 15 releases behind the latest release v9.0.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n8 packages import @octokit/types@6.41.0 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Outdated Dependency @octokit/types@6.41.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "node-fetch@v2.6.7 is 27 months old and 14 releases behind the latest release v2.6.8. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n2 packages import node-fetch@2.6.7 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Outdated Dependency node-fetch@2.6.7"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on @actions/github@5.1.1, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency @actions/github@5.1.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "@octokit/openapi-types@v12.11.0 is 20 months old and 18 releases behind the latest release v13.13.1. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n@octokit/openapi-types@12.11.0 is a transitive dependency of legitify-action@1.0.0 via external direct dependency @actions/github@5.1.1. @octokit/openapi-types@12.11.0 is a transitive dependency of @actions/github@5.1.1."
+          },
+          "ruleId": "Outdated Dependency @octokit/openapi-types@12.11.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "@octokit/request@v5.6.3 is 27 months old and 7 releases behind the latest release v6.2.2. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n2 packages import @octokit/request@5.6.3 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Outdated Dependency @octokit/request@5.6.3"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on @actions/artifact@1.1.0, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency @actions/artifact@1.1.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "@octokit/plugin-paginate-rest@v2.21.3 is 21 months old and 11 releases behind the latest release v5.0.1. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n@octokit/plugin-paginate-rest@2.21.3 is a transitive dependency of legitify-action@1.0.0 via external direct dependency @actions/github@5.1.1."
+          },
+          "ruleId": "Outdated Dependency @octokit/plugin-paginate-rest@2.21.3"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on node-fetch@2.6.7, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency node-fetch@2.6.7"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "@octokit/core@v3.6.0 is 25 months old and 7 releases behind the latest release v4.1.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n3 packages import @octokit/core@3.6.0 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "Outdated Dependency @octokit/core@3.6.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "whatwg-url@v5.0.0 is 84 months old and 26 releases behind the latest release v12.0.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\nwhatwg-url@5.0.0 is a transitive dependency of legitify-action@1.0.0 via external direct dependency node-fetch@2.6.7."
+          },
+          "ruleId": "Outdated Dependency whatwg-url@5.0.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on tar-fs@2.1.1, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency tar-fs@2.1.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "License risk for dependency tmp@0.2.1: License information from package manager MIT is different from the licenses discovered in the source code Apache-2.0.\n2 packages import tmp@0.2.1 directly. See the list of all dependency paths for details."
+          },
+          "ruleId": "License Risk in Dependency tmp@0.2.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on request@2.88.2, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency request@2.88.2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "@octokit/plugin-rest-endpoint-methods@v5.16.2 is 21 months old and 19 releases behind the latest release v6.7.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\n@octokit/plugin-rest-endpoint-methods@5.16.2 is a transitive dependency of legitify-action@1.0.0 via external direct dependency @actions/github@5.1.1."
+          },
+          "ruleId": "Outdated Dependency @octokit/plugin-rest-endpoint-methods@5.16.2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "ajv@v6.12.6 is 43 months old and 37 releases behind the latest release v8.12.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\najv@6.12.6 is a transitive dependency of legitify-action@1.0.0 via external direct dependency request@2.88.2. ajv@6.12.6 is a transitive dependency of request@2.88.2."
+          },
+          "ruleId": "Outdated Dependency ajv@6.12.6"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on @actions/exec@1.1.1, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency @actions/exec@1.1.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "webidl-conversions@v3.0.1 is 101 months old and 7 releases behind the latest release v7.0.0. Latest release is calculated from the source code repository and may be different than what can be found in the package manager.\nwebidl-conversions@3.0.1 is a transitive dependency of legitify-action@1.0.0 via external direct dependency node-fetch@2.6.7. webidl-conversions@3.0.1 is a transitive dependency of node-fetch@2.6.7."
+          },
+          "ruleId": "Outdated Dependency webidl-conversions@3.0.1"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "legitify-action@1.0.0 directly depends on @actions/core@1.10.0, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency @actions/core@1.10.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "package-lock.json"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Repository node-tunnel is archived for dependency tunnel@0.0.6.\ntunnel@0.0.6 is a transitive dependency of legitify-action@1.0.0 via external direct dependency @actions/artifact@1.1.0. tunnel@0.0.6 is a transitive dependency of @actions/artifact@1.1.0."
+          },
+          "ruleId": "Unmaintained Dependency tunnel@0.0.6"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "endorctl",
+          "rules": [
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/ghodss/yaml@v1.0.0",
+              "name": "License Risk in Dependency github.com/ghodss/yaml@v1.0.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/ghodss/yaml@v1.0.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/shurcooL/graphql@v0.0.0-20220520033453-bdb1221e171e",
+              "name": "License Risk in Dependency github.com/shurcooL/graphql@v0.0.0-20220520033453-bdb1221e171e",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/shurcooL/graphql@v0.0.0-20220520033453-bdb1221e171e"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency github.com/rhysd/actionlint@v1.6.15",
+              "name": "Outdated Dependency github.com/rhysd/actionlint@v1.6.15",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency github.com/rhysd/actionlint@v1.6.15"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package is very likely to be unmaintained, as determined by several factors contributing to a very low activity score. Reliance on packages that are no longer maintained can make it costly or unreasonable to fix significant security risks, or quality issues. This may render the dependency obsolete over time.\nBy relying on an unmaintained software package, organizations may assume the cost of maintenance and have a longer lead time for fixes on any security issues, if they are fixed at all."
+              },
+              "help": {
+                "text": "Check if the package is unmaintained by reviewing the score factors and decide whether to switch packages."
+              },
+              "id": "Dependency tunnel@0.0.6 With Very Low Activity Score",
+              "name": "Dependency tunnel@0.0.6 With Very Low Activity Score",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Dependency tunnel@0.0.6 With Very Low Activity Score"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin @actions/github (latest: 6.0.0) to version 5.1.1 (current resolved version), or 6.0.0 (higher score)."
+              },
+              "id": "Unpinned Direct Dependency @actions/github@5.1.1",
+              "name": "Unpinned Direct Dependency @actions/github@5.1.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency @actions/github@5.1.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/gogo/protobuf@v1.3.2",
+              "name": "License Risk in Dependency github.com/gogo/protobuf@v1.3.2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/gogo/protobuf@v1.3.2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2",
+              "name": "License Risk in Dependency golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency golang.org/x/xerrors@v0.0.0-20220907171357-04be3eba64a2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415",
+              "name": "License Risk in Dependency github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/xeipuuv/gojsonreference@v0.0.0-20180127040603-bd5ef7bd5415"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency github.com/google/go-github/v45@v45.2.0",
+              "name": "Outdated Dependency github.com/google/go-github/v45@v45.2.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency github.com/google/go-github/v45@v45.2.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "One or more of the licenses associated with this package or package dependency violates organizational license policy."
+              },
+              "help": {
+                "text": "Please consult with legal for further instructions or to request an exception."
+              },
+              "id": "License Compliance Violation",
+              "name": "License Compliance Violation for Dependency github.com/opencontainers/go-digest@v1.0.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "POLICY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Compliance Violation for Dependency github.com/opencontainers/go-digest@v1.0.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No patch upgrades available to fix the issue. Check the security advisory for alternative controls or actions."
+              },
+              "id": "GHSA-p8p7-x288-28g6: Server-Side Request Forgery in Request",
+              "name": "GHSA-p8p7-x288-28g6: Server-Side Request Forgery in Request",
+              "properties": {
+                "security-severity": "6.099999904632568E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "UNFIXABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-p8p7-x288-28g6: Server-Side Request Forgery in Request"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No newer versions of github.com/xanzy/go-gitlab (current: v0.83.0, latest: v0.105.0) require github.com/hashicorp/go-retryablehttp 0.7.7 or higher. Consider other options to upgrade github.com/hashicorp/go-retryablehttp to 0.7.7 (current: v0.7.2, latest: v0.7.6)."
+              },
+              "id": "GHSA-v6v8-xj6m-xwqh: go-retryablehttp can leak basic auth credentials to log files",
+              "name": "GHSA-v6v8-xj6m-xwqh: go-retryablehttp can leak basic auth credentials to log files",
+              "properties": {
+                "security-severity": "6E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-v6v8-xj6m-xwqh: go-retryablehttp can leak basic auth credentials to log files"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency @octokit/types@6.41.0",
+              "name": "Outdated Dependency @octokit/types@6.41.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency @octokit/types@6.41.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency @octokit/plugin-rest-endpoint-methods@5.16.2",
+              "name": "Outdated Dependency @octokit/plugin-rest-endpoint-methods@5.16.2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency @octokit/plugin-rest-endpoint-methods@5.16.2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin @actions/exec (latest: 1.1.1) to version 1.0.4 (higher score and same major release number), 1.0.3 (higher score and same major release number), or 1.0.2 (higher score and same major release number)."
+              },
+              "id": "Unpinned Direct Dependency @actions/exec@1.1.1",
+              "name": "Unpinned Direct Dependency @actions/exec@1.1.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency @actions/exec@1.1.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency webidl-conversions@3.0.1",
+              "name": "Outdated Dependency webidl-conversions@3.0.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency webidl-conversions@3.0.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/spf13/pflag@v1.0.5",
+              "name": "License Risk in Dependency github.com/spf13/pflag@v1.0.5",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/spf13/pflag@v1.0.5"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/mitchellh/go-homedir@v1.1.0",
+              "name": "License Risk in Dependency github.com/mitchellh/go-homedir@v1.1.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/mitchellh/go-homedir@v1.1.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "Update github.com/Legit-Labs/legitify@main to use github.com/sashabaranov/go-openai version v1.20.4, v1.20.3, v1.20.2, or v1.20.1 (current: v1.9.0, latest: v1.20.5)."
+              },
+              "id": "Outdated Dependency github.com/sashabaranov/go-openai@v1.9.0",
+              "name": "Outdated Dependency github.com/sashabaranov/go-openai@v1.9.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency github.com/sashabaranov/go-openai@v1.9.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency @octokit/openapi-types@12.11.0",
+              "name": "Outdated Dependency @octokit/openapi-types@12.11.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency @octokit/openapi-types@12.11.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No newer versions of github.com/ossf/scorecard/v4 (current: v4.10.5, latest: v4.13.1) require github.com/moby/buildkit v0.12.5 or higher. Consider other options to upgrade github.com/moby/buildkit to v0.12.5 (current: v0.11.4, latest: v0.13.2)."
+              },
+              "id": "GHSA-9p26-698r-w4hx: BuildKit vulnerable to possible panic when incorrect parameters sent from frontend",
+              "name": "GHSA-9p26-698r-w4hx: BuildKit vulnerable to possible panic when incorrect parameters sent from frontend",
+              "properties": {
+                "security-severity": "5.300000190734863E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-9p26-698r-w4hx: BuildKit vulnerable to possible panic when incorrect parameters sent from frontend"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be",
+              "name": "License Risk in Dependency github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/spf13/jwalterweatherman@v1.1.0",
+              "name": "License Risk in Dependency github.com/spf13/jwalterweatherman@v1.1.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/spf13/jwalterweatherman@v1.1.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "Upgrade node-fetch to version 13.1.0, 13.0.7, 12.3.4, or 12.3.2 (current: 2.6.7, latest: 13.1.0)."
+              },
+              "id": "Outdated Dependency node-fetch@2.6.7",
+              "name": "Outdated Dependency node-fetch@2.6.7",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency node-fetch@2.6.7"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency @octokit/request@5.6.3",
+              "name": "Outdated Dependency @octokit/request@5.6.3",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency @octokit/request@5.6.3"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The source code repository for this package is archived."
+              },
+              "help": {
+                "text": "Assess the feasibility of migrating to a maintained software package or self-maintenance with the understanding that this software will no longer make updates available."
+              },
+              "id": "Unmaintained Dependency tunnel@0.0.6",
+              "name": "Unmaintained Dependency tunnel@0.0.6",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unmaintained Dependency tunnel@0.0.6"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/OneOfOne/xxhash@v1.2.8",
+              "name": "License Risk in Dependency github.com/OneOfOne/xxhash@v1.2.8",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/OneOfOne/xxhash@v1.2.8"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/golang/mock@v1.6.0",
+              "name": "License Risk in Dependency github.com/golang/mock@v1.6.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/golang/mock@v1.6.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "A critical severity known vulnerability has been assessed against this version of the software package according to the information in OSV.dev"
+              },
+              "help": {
+                "text": "No newer versions of request (current: 2.88.2, latest: 2.88.2) require tough-cookie 4.1.3 or higher. Consider other options to upgrade tough-cookie to 4.1.3 (current: 2.5.0, latest: 5.0.0-rc.2)."
+              },
+              "id": "GHSA-72xf-g2v4-qvf3: tough-cookie Prototype Pollution vulnerability",
+              "name": "GHSA-72xf-g2v4-qvf3: tough-cookie Prototype Pollution vulnerability",
+              "properties": {
+                "security-severity": "9.800000190734863E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-72xf-g2v4-qvf3: tough-cookie Prototype Pollution vulnerability"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin tar-fs (latest: 3.0.6) to version 2.1.1 (current resolved version), 3.0.4 (higher score), 3.0.3 (higher score), or 3.0.2 (higher score)."
+              },
+              "id": "Unpinned Direct Dependency tar-fs@2.1.1",
+              "name": "Unpinned Direct Dependency tar-fs@2.1.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency tar-fs@2.1.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No newer versions of github.com/ossf/scorecard/v4 (current: v4.10.5, latest: v4.13.1) require github.com/docker/docker v25.0.5+incompatible or higher. Consider other options to upgrade github.com/docker/docker to v25.0.5+incompatible (current: v24.0.9+incompatible, latest: v26.1.4+incompatible)."
+              },
+              "id": "GHSA-mq39-4gv4-mvpx: Moby's external DNS requests from 'internal' networks could lead to data exfiltration",
+              "name": "GHSA-mq39-4gv4-mvpx: Moby's external DNS requests from 'internal' networks could lead to data exfiltration",
+              "properties": {
+                "security-severity": "5.900000095367432E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-mq39-4gv4-mvpx: Moby's external DNS requests from 'internal' networks could lead to data exfiltration"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No newer versions of github.com/xanzy/go-gitlab (current: v0.83.0, latest: v0.105.0) require github.com/hashicorp/go-retryablehttp 0.7.7 or higher. Consider other options to upgrade github.com/hashicorp/go-retryablehttp to 0.7.7 (current: v0.7.2, latest: v0.7.6)."
+              },
+              "id": "GO-2024-2947: Leak of sensitive information to log files in github.com/hashicorp/go-retryablehttp",
+              "name": "GO-2024-2947: Leak of sensitive information to log files in github.com/hashicorp/go-retryablehttp",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GO-2024-2947: Leak of sensitive information to log files in github.com/hashicorp/go-retryablehttp"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d",
+              "name": "License Risk in Dependency github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/acarl005/stripansi@v0.0.0-20180116102854-5a71ef0e047d"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "A critical severity known vulnerability has been assessed against this version of the software package according to the information in OSV.dev"
+              },
+              "help": {
+                "text": "No newer versions of github.com/ossf/scorecard/v4 (current: v4.10.5, latest: v4.13.1) require github.com/moby/buildkit v0.12.5 or higher. Consider other options to upgrade github.com/moby/buildkit to v0.12.5 (current: v0.11.4, latest: v0.13.2)."
+              },
+              "id": "GHSA-4v98-7qmw-rqr8: BuildKit vulnerable to possible host system access from mount stub cleaner",
+              "name": "GHSA-4v98-7qmw-rqr8: BuildKit vulnerable to possible host system access from mount stub cleaner",
+              "properties": {
+                "security-severity": "9.100000381469727E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-4v98-7qmw-rqr8: BuildKit vulnerable to possible host system access from mount stub cleaner"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/hashicorp/hcl@v1.0.0",
+              "name": "License Risk in Dependency github.com/hashicorp/hcl@v1.0.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/hashicorp/hcl@v1.0.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/mattn/go-colorable@v0.1.13",
+              "name": "License Risk in Dependency github.com/mattn/go-colorable@v0.1.13",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/mattn/go-colorable@v0.1.13"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "Popularity is a social proxy for quality. Popular packages are more likely to remain maintained and thoroughly tested. Relying on lesser known packages for critical functions may increase operational risk."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Dependency github.com/yashtewari/glob-intersection@v0.1.0 With Very Low Popularity Score",
+              "name": "Dependency github.com/yashtewari/glob-intersection@v0.1.0 With Very Low Popularity Score",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Dependency github.com/yashtewari/glob-intersection@v0.1.0 With Very Low Popularity Score"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency gopkg.in/yaml.v3@v3.0.1",
+              "name": "License Risk in Dependency gopkg.in/yaml.v3@v3.0.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency gopkg.in/yaml.v3@v3.0.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/gobwas/glob@v0.2.3",
+              "name": "License Risk in Dependency github.com/gobwas/glob@v0.2.3",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/gobwas/glob@v0.2.3"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency @octokit/plugin-paginate-rest@2.21.3",
+              "name": "Outdated Dependency @octokit/plugin-paginate-rest@2.21.3",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency @octokit/plugin-paginate-rest@2.21.3"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency @octokit/core@3.6.0",
+              "name": "Outdated Dependency @octokit/core@3.6.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency @octokit/core@3.6.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin @actions/core (latest: 1.10.1) to version 1.10.0 (current resolved version)."
+              },
+              "id": "Unpinned Direct Dependency @actions/core@1.10.0",
+              "name": "Unpinned Direct Dependency @actions/core@1.10.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency @actions/core@1.10.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/rivo/uniseg@v0.4.4",
+              "name": "License Risk in Dependency github.com/rivo/uniseg@v0.4.4",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/rivo/uniseg@v0.4.4"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/pmezard/go-difflib@v1.0.0",
+              "name": "License Risk in Dependency github.com/pmezard/go-difflib@v1.0.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/pmezard/go-difflib@v1.0.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/sergi/go-diff@v1.1.0",
+              "name": "License Risk in Dependency github.com/sergi/go-diff@v1.1.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/sergi/go-diff@v1.1.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/BurntSushi/toml@v1.2.1",
+              "name": "License Risk in Dependency github.com/BurntSushi/toml@v1.2.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/BurntSushi/toml@v1.2.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/VividCortex/ewma@v1.2.0",
+              "name": "License Risk in Dependency github.com/VividCortex/ewma@v1.2.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/VividCortex/ewma@v1.2.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency whatwg-url@5.0.0",
+              "name": "Outdated Dependency whatwg-url@5.0.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency whatwg-url@5.0.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "A critical severity known vulnerability has been assessed against this version of the software package according to the information in OSV.dev"
+              },
+              "help": {
+                "text": "No newer versions of github.com/ossf/scorecard/v4 (current: v4.10.5, latest: v4.13.1) require github.com/moby/buildkit v0.12.5 or higher. Consider other options to upgrade github.com/moby/buildkit to v0.12.5 (current: v0.11.4, latest: v0.13.2)."
+              },
+              "id": "GHSA-wr6v-9f75-vh2g: Buildkit's interactive containers API does not validate entitlements check",
+              "name": "GHSA-wr6v-9f75-vh2g: Buildkit's interactive containers API does not validate entitlements check",
+              "properties": {
+                "security-severity": "9.800000190734863E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-wr6v-9f75-vh2g: Buildkit's interactive containers API does not validate entitlements check"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/mitchellh/mapstructure@v1.5.0",
+              "name": "License Risk in Dependency github.com/mitchellh/mapstructure@v1.5.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/mitchellh/mapstructure@v1.5.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/docker/cli@v23.0.0-rc.1+incompatible",
+              "name": "License Risk in Dependency github.com/docker/cli@v23.0.0-rc.1+incompatible",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/docker/cli@v23.0.0-rc.1+incompatible"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/olekukonko/tablewriter@v0.0.5",
+              "name": "License Risk in Dependency github.com/olekukonko/tablewriter@v0.0.5",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/olekukonko/tablewriter@v0.0.5"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/agnivade/levenshtein@v1.1.1",
+              "name": "License Risk in Dependency github.com/agnivade/levenshtein@v1.1.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/agnivade/levenshtein@v1.1.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The source code repository for this package is archived."
+              },
+              "help": {
+                "text": "Assess the feasibility of migrating to a maintained software package or self-maintenance with the understanding that this software will no longer make updates available."
+              },
+              "id": "Unmaintained Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79",
+              "name": "Unmaintained Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unmaintained Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/caarlos0/env/v6@v6.10.0",
+              "name": "License Risk in Dependency github.com/caarlos0/env/v6@v6.10.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/caarlos0/env/v6@v6.10.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency github.com/google/go-github/v38@v38.1.0",
+              "name": "Outdated Dependency github.com/google/go-github/v38@v38.1.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency github.com/google/go-github/v38@v38.1.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/robfig/cron@v1.2.0",
+              "name": "License Risk in Dependency github.com/robfig/cron@v1.2.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/robfig/cron@v1.2.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/davecgh/go-spew@v1.1.1",
+              "name": "License Risk in Dependency github.com/davecgh/go-spew@v1.1.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/davecgh/go-spew@v1.1.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/hashicorp/go-cleanhttp@v0.5.2",
+              "name": "License Risk in Dependency github.com/hashicorp/go-cleanhttp@v0.5.2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/hashicorp/go-cleanhttp@v0.5.2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/Masterminds/semver/v3@v3.2.0",
+              "name": "License Risk in Dependency github.com/Masterminds/semver/v3@v3.2.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/Masterminds/semver/v3@v3.2.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency ajv@6.12.6",
+              "name": "Outdated Dependency ajv@6.12.6",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency ajv@6.12.6"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No newer versions of github.com/ossf/scorecard/v4 (current: v4.10.5, latest: v4.13.1) require github.com/moby/buildkit v0.12.5 or higher. Consider other options to upgrade github.com/moby/buildkit to v0.12.5 (current: v0.11.4, latest: v0.13.2)."
+              },
+              "id": "GHSA-m3r6-h7wv-7xxv: BuildKit vulnerable to possible race condition with accessing subpaths from cache mounts",
+              "name": "GHSA-m3r6-h7wv-7xxv: BuildKit vulnerable to possible race condition with accessing subpaths from cache mounts",
+              "properties": {
+                "security-severity": "7.400000095367432E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "GHSA-m3r6-h7wv-7xxv: BuildKit vulnerable to possible race condition with accessing subpaths from cache mounts"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package may be unmaintained, as determined by several factors contributing to a low activity score. Reliance on packages that are no longer maintained can make it costly or unreasonable to fix significant security risks, or quality issues. This may render the package obsolete over time.\nBy relying on an unmaintained software package, organizations may assume the cost of maintenance and have a longer lead time for fixes on any security issues, if they are fixed at all. "
+              },
+              "help": {
+                "text": "Check if the package is unmaintained by reviewing the score factors and decide whether to switch packages."
+              },
+              "id": "Dependency github.com/pkg/errors@v0.9.1 With Low Activity Score",
+              "name": "Dependency github.com/pkg/errors@v0.9.1 With Low Activity Score",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Dependency github.com/pkg/errors@v0.9.1 With Low Activity Score"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/google/uuid@v1.3.0",
+              "name": "License Risk in Dependency github.com/google/uuid@v1.3.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/google/uuid@v1.3.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin @actions/artifact (latest: 2.1.7) to version 1.1.2 (higher score and same major release number), 1.0.2 (higher score and same major release number), 2.0.1 (higher score), or 0.6.0 (higher score)."
+              },
+              "id": "Unpinned Direct Dependency @actions/artifact@1.1.0",
+              "name": "Unpinned Direct Dependency @actions/artifact@1.1.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency @actions/artifact@1.1.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin node-fetch (latest: 13.1.0) to version 2.6.13 (higher score and same major release number), 2.6.9 (higher score and same major release number), 2.6.8 (higher score and same major release number), or 2.6.7 (current resolved version)."
+              },
+              "id": "Unpinned Direct Dependency node-fetch@2.6.7",
+              "name": "Unpinned Direct Dependency node-fetch@2.6.7",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency node-fetch@2.6.7"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package has had multiple later releases or a significant period of time has passed since the release of the version currently in use. Relying on outdated dependencies can result in missing important bug fixes or security patches and make upgrades more difficult."
+              },
+              "help": {
+                "text": "No direct dependency upgrade(s) exist to fix this issue."
+              },
+              "id": "Outdated Dependency cloud.google.com/go@v0.110.0",
+              "name": "Outdated Dependency cloud.google.com/go@v0.110.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Outdated Dependency cloud.google.com/go@v0.110.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The source code repository for this package is archived."
+              },
+              "help": {
+                "text": "Assess the feasibility of migrating to a maintained software package or self-maintenance with the understanding that this software will no longer make updates available."
+              },
+              "id": "Unmaintained Dependency github.com/golang/mock@v1.6.0",
+              "name": "Unmaintained Dependency github.com/golang/mock@v1.6.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unmaintained Dependency github.com/golang/mock@v1.6.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/fatih/color@v1.15.0",
+              "name": "License Risk in Dependency github.com/fatih/color@v1.15.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/fatih/color@v1.15.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin request (latest: 2.88.2) to version 2.88.1 (higher score and same major release number)."
+              },
+              "id": "Unpinned Direct Dependency request@2.88.2",
+              "name": "Unpinned Direct Dependency request@2.88.2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency request@2.88.2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/ProtonMail/go-crypto@v0.0.0-20230828082145-3c4c8a2d2371",
+              "name": "License Risk in Dependency github.com/ProtonMail/go-crypto@v0.0.0-20230828082145-3c4c8a2d2371",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/ProtonMail/go-crypto@v0.0.0-20230828082145-3c4c8a2d2371"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/vbauerster/mpb/v8@v8.4.0",
+              "name": "License Risk in Dependency github.com/vbauerster/mpb/v8@v8.4.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/vbauerster/mpb/v8@v8.4.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/opencontainers/image-spec@v1.1.0-rc2",
+              "name": "License Risk in Dependency github.com/opencontainers/image-spec@v1.1.0-rc2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/opencontainers/image-spec@v1.1.0-rc2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev."
+              },
+              "help": {
+                "text": "No newer versions of github.com/xanzy/go-gitlab (current: v0.83.0, latest: v0.105.0) require github.com/hashicorp/go-retryablehttp v0.7.7 or higher. Consider other options to upgrade github.com/hashicorp/go-retryablehttp to v0.7.7 (current: v0.7.2, latest: v0.7.6)."
+              },
+              "id": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
+              "name": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
+              "properties": {
+                "security-severity": "6E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_FUNCTION",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY",
+                  "FIX_AVAILABLE"
+                ]
+              },
+              "shortDescription": {
+                "text": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7."
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb",
+              "name": "License Risk in Dependency github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/xeipuuv/gojsonpointer@v0.0.0-20190905194746-02993c407bfb"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79",
+              "name": "License Risk in Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/gregjones/httpcache@v0.0.0-20190611155906-901d90724c79"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The source code repository for this package is archived."
+              },
+              "help": {
+                "text": "Assess the feasibility of migrating to a maintained software package or self-maintenance with the understanding that this software will no longer make updates available."
+              },
+              "id": "Unmaintained Dependency github.com/pkg/errors@v0.9.1",
+              "name": "Unmaintained Dependency github.com/pkg/errors@v0.9.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unmaintained Dependency github.com/pkg/errors@v0.9.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency github.com/google/go-querystring@v1.1.0",
+              "name": "License Risk in Dependency github.com/google/go-querystring@v1.1.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency github.com/google/go-querystring@v1.1.0"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The repository for this package is either missing a license or the license found is problematic."
+              },
+              "help": {
+                "text": "Review details to decide what to do next."
+              },
+              "id": "License Risk in Dependency tmp@0.2.1",
+              "name": "License Risk in Dependency tmp@0.2.1",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "License Risk in Dependency tmp@0.2.1"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "The source code repository for this package is archived."
+              },
+              "help": {
+                "text": "Assess the feasibility of migrating to a maintained software package or self-maintenance with the understanding that this software will no longer make updates available."
+              },
+              "id": "Unmaintained Dependency go.opencensus.io@v0.24.0",
+              "name": "Unmaintained Dependency go.opencensus.io@v0.24.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "TRANSITIVE",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unmaintained Dependency go.opencensus.io@v0.24.0"
+              }
+            }
+          ],
+          "semanticVersion": "v1.6.320"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}
